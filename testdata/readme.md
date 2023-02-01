@@ -1,5 +1,5 @@
 ## Ground truth images:
-012_100_gt.npy \n
+012_100_gt.npy
 025_128_gt.npy
 
 ## Sinograms of 60 projection views
