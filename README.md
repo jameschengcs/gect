@@ -1,2 +1,2 @@
-# gect
-CT reconstruction by compositing Gaussian ellipses
+# GECT
+## CT reconstruction by compositing Gaussian ellipses
