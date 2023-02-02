@@ -1,5 +1,6 @@
 ## Creating the testdata
 The test sinograms were created by [ASTRA Toolbox](https://www.astra-toolbox.com/) with *create_proj_geom* by the following configuration:
+```
 astra.create_proj_geom(
     'fanflat', 
     det_width = 1.0, 
@@ -7,6 +8,8 @@ astra.create_proj_geom(
 	angles = np.linspace(0.0, np.pi * 2, views, False), 
 	source_origin = 256. * 2, 
 	origin_det = 0.0)
+```
+where views indicate the number of projection views.
 
 ## Ground truth images:
 012_100_gt.npy
