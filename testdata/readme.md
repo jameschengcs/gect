@@ -1,5 +1,5 @@
 ## Creating the testdata
-The test sinograms were created by [ASTRA Toolbox](https://www.astra-toolbox.com/) with *create_proj_geom* by the following configuration:
+The test sinograms were created by [ASTRA Toolbox](https://www.astra-toolbox.com/) with *create_proj_geom* and the following configuration:
 ```
 astra.create_proj_geom(
     'fanflat', 
