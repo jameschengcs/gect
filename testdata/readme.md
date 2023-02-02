@@ -5,11 +5,11 @@ astra.create_proj_geom(
     'fanflat', 
     det_width = 1.0, 
     det_count = 384, 
-	angles = np.linspace(0.0, np.pi * 2, views, False), 
-	source_origin = 256. * 2, 
-	origin_det = 0.0)
+    angles = np.linspace(0.0, np.pi * 2, v, False), 
+    source_origin = 256. * 2, 
+    origin_det = 0.0)
 ```
-where views indicate the number of projection views.
+where *v* indicates the number of projection views.
 
 ## Ground truth images:
 012_100_gt.npy
